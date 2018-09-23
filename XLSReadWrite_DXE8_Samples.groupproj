@@ -1,0 +1,204 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{049A5607-DFB8-4F8B-9616-2509A5051829}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Autofilter\SamleAutofilter.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Comment\SampleComment.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ConditionalFormats\SampleConditionalFormats.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="CopyMoveDelete\SampleCopyMoveDelete.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="CreateCharts\CreateChartsSample.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="DbReadNew\DbReadSample.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ExportHtml\SampleExportHtml.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="FormatCells\SampleFormatCells.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Hyperlink\SampleHyperlink.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Macros\MacrosSample.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MonitorFile\MonitorFileSample.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="NamedCells\SampleDefinedNames.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Pictures\SamplePictures.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TextBox\SampleTextBox.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="XLSGrid\XLSGridSample.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="SamleAutofilter">
+        <MSBuild Projects="Autofilter\SamleAutofilter.dproj"/>
+    </Target>
+    <Target Name="SamleAutofilter:Clean">
+        <MSBuild Projects="Autofilter\SamleAutofilter.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SamleAutofilter:Make">
+        <MSBuild Projects="Autofilter\SamleAutofilter.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SampleComment">
+        <MSBuild Projects="Comment\SampleComment.dproj"/>
+    </Target>
+    <Target Name="SampleComment:Clean">
+        <MSBuild Projects="Comment\SampleComment.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SampleComment:Make">
+        <MSBuild Projects="Comment\SampleComment.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SampleConditionalFormats">
+        <MSBuild Projects="ConditionalFormats\SampleConditionalFormats.dproj"/>
+    </Target>
+    <Target Name="SampleConditionalFormats:Clean">
+        <MSBuild Projects="ConditionalFormats\SampleConditionalFormats.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SampleConditionalFormats:Make">
+        <MSBuild Projects="ConditionalFormats\SampleConditionalFormats.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SampleCopyMoveDelete">
+        <MSBuild Projects="CopyMoveDelete\SampleCopyMoveDelete.dproj"/>
+    </Target>
+    <Target Name="SampleCopyMoveDelete:Clean">
+        <MSBuild Projects="CopyMoveDelete\SampleCopyMoveDelete.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SampleCopyMoveDelete:Make">
+        <MSBuild Projects="CopyMoveDelete\SampleCopyMoveDelete.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CreateChartsSample">
+        <MSBuild Projects="CreateCharts\CreateChartsSample.dproj"/>
+    </Target>
+    <Target Name="CreateChartsSample:Clean">
+        <MSBuild Projects="CreateCharts\CreateChartsSample.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CreateChartsSample:Make">
+        <MSBuild Projects="CreateCharts\CreateChartsSample.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DbReadSample">
+        <MSBuild Projects="DbReadNew\DbReadSample.dproj"/>
+    </Target>
+    <Target Name="DbReadSample:Clean">
+        <MSBuild Projects="DbReadNew\DbReadSample.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DbReadSample:Make">
+        <MSBuild Projects="DbReadNew\DbReadSample.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SampleExportHtml">
+        <MSBuild Projects="ExportHtml\SampleExportHtml.dproj"/>
+    </Target>
+    <Target Name="SampleExportHtml:Clean">
+        <MSBuild Projects="ExportHtml\SampleExportHtml.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SampleExportHtml:Make">
+        <MSBuild Projects="ExportHtml\SampleExportHtml.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SampleFormatCells">
+        <MSBuild Projects="FormatCells\SampleFormatCells.dproj"/>
+    </Target>
+    <Target Name="SampleFormatCells:Clean">
+        <MSBuild Projects="FormatCells\SampleFormatCells.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SampleFormatCells:Make">
+        <MSBuild Projects="FormatCells\SampleFormatCells.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SampleHyperlink">
+        <MSBuild Projects="Hyperlink\SampleHyperlink.dproj"/>
+    </Target>
+    <Target Name="SampleHyperlink:Clean">
+        <MSBuild Projects="Hyperlink\SampleHyperlink.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SampleHyperlink:Make">
+        <MSBuild Projects="Hyperlink\SampleHyperlink.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MacrosSample">
+        <MSBuild Projects="Macros\MacrosSample.dproj"/>
+    </Target>
+    <Target Name="MacrosSample:Clean">
+        <MSBuild Projects="Macros\MacrosSample.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MacrosSample:Make">
+        <MSBuild Projects="Macros\MacrosSample.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MonitorFileSample">
+        <MSBuild Projects="MonitorFile\MonitorFileSample.dproj"/>
+    </Target>
+    <Target Name="MonitorFileSample:Clean">
+        <MSBuild Projects="MonitorFile\MonitorFileSample.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MonitorFileSample:Make">
+        <MSBuild Projects="MonitorFile\MonitorFileSample.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SampleDefinedNames">
+        <MSBuild Projects="NamedCells\SampleDefinedNames.dproj"/>
+    </Target>
+    <Target Name="SampleDefinedNames:Clean">
+        <MSBuild Projects="NamedCells\SampleDefinedNames.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SampleDefinedNames:Make">
+        <MSBuild Projects="NamedCells\SampleDefinedNames.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SamplePictures">
+        <MSBuild Projects="Pictures\SamplePictures.dproj"/>
+    </Target>
+    <Target Name="SamplePictures:Clean">
+        <MSBuild Projects="Pictures\SamplePictures.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SamplePictures:Make">
+        <MSBuild Projects="Pictures\SamplePictures.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SampleTextBox">
+        <MSBuild Projects="TextBox\SampleTextBox.dproj"/>
+    </Target>
+    <Target Name="SampleTextBox:Clean">
+        <MSBuild Projects="TextBox\SampleTextBox.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SampleTextBox:Make">
+        <MSBuild Projects="TextBox\SampleTextBox.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="XLSGridSample">
+        <MSBuild Projects="XLSGrid\XLSGridSample.dproj"/>
+    </Target>
+    <Target Name="XLSGridSample:Clean">
+        <MSBuild Projects="XLSGrid\XLSGridSample.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="XLSGridSample:Make">
+        <MSBuild Projects="XLSGrid\XLSGridSample.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="SamleAutofilter;SampleComment;SampleConditionalFormats;SampleCopyMoveDelete;CreateChartsSample;DbReadSample;SampleExportHtml;SampleFormatCells;SampleHyperlink;MacrosSample;MonitorFileSample;SampleDefinedNames;SamplePictures;SampleTextBox;XLSGridSample"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="SamleAutofilter:Clean;SampleComment:Clean;SampleConditionalFormats:Clean;SampleCopyMoveDelete:Clean;CreateChartsSample:Clean;DbReadSample:Clean;SampleExportHtml:Clean;SampleFormatCells:Clean;SampleHyperlink:Clean;MacrosSample:Clean;MonitorFileSample:Clean;SampleDefinedNames:Clean;SamplePictures:Clean;SampleTextBox:Clean;XLSGridSample:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="SamleAutofilter:Make;SampleComment:Make;SampleConditionalFormats:Make;SampleCopyMoveDelete:Make;CreateChartsSample:Make;DbReadSample:Make;SampleExportHtml:Make;SampleFormatCells:Make;SampleHyperlink:Make;MacrosSample:Make;MonitorFileSample:Make;SampleDefinedNames:Make;SamplePictures:Make;SampleTextBox:Make;XLSGridSample:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
